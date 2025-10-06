@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logoImage from '../assets/ai-generated/altitude_logo.png';
+import logoImage from '../assets/social_icons.png';
 
 const Header = () => {
   const [gamesDropdown, setGamesDropdown] = useState(false);
@@ -35,7 +35,7 @@ const Header = () => {
               onMouseEnter={() => setGamesDropdown(true)}
               onMouseLeave={() => setGamesDropdown(false)}
             >
-              <Link to="/games" className="hover:text-blue-300 transition-colors font-medium">Adventures</Link>
+              <Link to="/games" className="hover:text-blue-300 transition-colors font-medium">Games</Link>
               {gamesDropdown && (
                 <div className="absolute top-full left-0 bg-blue-900 border border-blue-700 rounded-md shadow-xl py-2 w-52 mt-1">
                   <Link to="/games/laser-tag" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Summit Warriors</Link>
@@ -58,21 +58,21 @@ const Header = () => {
               onMouseEnter={() => setPartyDropdown(true)}
               onMouseLeave={() => setPartyDropdown(false)}
             >
-              <Link to="/party-packages" className="hover:text-blue-300 transition-colors font-medium">Expeditions</Link>
+              <Link to="/party-packages" className="hover:text-blue-300 transition-colors font-medium">Packages</Link>
               {partyDropdown && (
                 <div className="absolute top-full left-0 bg-blue-900 border border-blue-700 rounded-md shadow-xl py-2 w-52 mt-1">
-                  <Link to="/party/team-building" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Team Ascent</Link>
-                  <Link to="/party/birthday-party" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Summit Celebration</Link>
-                  <Link to="/party/venue-privatization" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Private Peak</Link>
-                  <Link to="/party/school-trips" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Learning Expedition</Link>
+                  <Link to="/party/team-building" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Corporate Events</Link>
+                  <Link to="/party/birthday-party" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Birthday Parties</Link>
+                  <Link to="/party/venue-privatization" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Private Events</Link>
+                  <Link to="/party/school-trips" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">School Trips</Link>
                 </div>
               )}
             </div>
 
             <Link to="/price" className="hover:text-blue-300 transition-colors font-medium">Pricing</Link>
             <Link to="/offers" className="hover:text-blue-300 transition-colors font-medium">Peak Deals</Link>
-            <Link to="/altitude-lounge" className="hover:text-blue-300 transition-colors font-medium">Summit Lounge</Link>
-            <Link to="/contact-us" className="hover:text-blue-300 transition-colors font-medium">Base Station</Link>
+            {/* <Link to="/altitude-lounge" className="hover:text-blue-300 transition-colors font-medium">Summit Lounge</Link> */}
+            <Link to="/contact-us" className="hover:text-blue-300 transition-colors font-medium">Franchises</Link>
             
             <Link to="/contact-us" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 px-6 py-2 rounded-full transition-all duration-300 font-semibold shadow-lg">
               Start Climbing
