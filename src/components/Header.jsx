@@ -19,11 +19,11 @@ const Header = () => {
           </div>
           
           {/* Logo */}
-          <div className="flex-1 flex justify-center">
+          {/* <div className="flex-1 flex justify-center">
             <Link to="/" className="flex items-center">
               <img src={logoImage} alt="Altitude Arena" className="h-12 w-auto" />
             </Link>
-          </div>
+          </div> */}
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
@@ -38,14 +38,14 @@ const Header = () => {
               <Link to="/games" className="hover:text-blue-300 transition-colors font-medium">Games</Link>
               {gamesDropdown && (
                 <div className="absolute top-full left-0 bg-blue-900 border border-blue-700 rounded-md shadow-xl py-2 w-52 mt-1">
-                  <Link to="/games/laser-tag" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Summit Warriors</Link>
-                  <Link to="/games/bowling" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Alpine Bowling</Link>
-                  <Link to="/games/trampoline" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Peak Bounce</Link>
+                  <Link to="/games/laser-tag" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Laser Tag</Link>
+                  <Link to="/games/bowling" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Bowling</Link>
+                  <Link to="/games/trampoline" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Tampoline</Link>
                   <Link to="/games/roll-glider" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Sky Glider</Link>
                   <Link to="/games/slime-universe" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Crystal Caverns</Link>
                   <Link to="/games/vr-games" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Virtual Peaks</Link>
                   <Link to="/games/soft-play" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Base Camp</Link>
-                  <Link to="/games/wall-climbing" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Rock Face</Link>
+                  <Link to="/games/wall-climbing" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Ninja</Link>
                   <Link to="/games/arcade-games" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Game Summit</Link>
                   <Link to="/games/all-games" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">All Adventures</Link>
                 </div>

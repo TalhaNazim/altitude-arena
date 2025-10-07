@@ -17,7 +17,7 @@ const Footer = () => {
               <p>✉️ hello.dxb@altitudearena.ae</p>
               <p>📍 Al Quoz 2, Dubai, United Arab Emirates</p>
             </div>
-            
+
             <div className="mt-6">
               <p className="font-semibold mb-2">Operating Hours:</p>
               <div className="space-y-1 text-sm">
@@ -27,9 +27,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <img src={socialIcons} alt="Social Media" className="h-8" />
-            </div>
+            </div> */}
           </div>
 
           {/* Company Links */}

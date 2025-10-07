@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import peakChallengeCard from '../assets/ai-generated/peak_challenge_card.png';
 import summitWarriorsCard from '../assets/ai-generated/summit_warriors_card.png';
 import altitudeAdventureCard from '../assets/ai-generated/altitude_adventure_card.png';
-import mountainEagleMascot from '../assets/ai-generated/mountain_eagle_mascot.png';
+import mountainEagleMascot from '../assets/ai-generated/Altitude-Arena-Image.png';
 import trampolinePeaks from '../assets/ai-generated/trampoline_peaks.png';
 import bowlingSummit from '../assets/ai-generated/bowling_summit.png';
 import laserTagAltitude from '../assets/ai-generated/laser_tag_altitude.png';
@@ -55,7 +55,7 @@ const Home = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img src={summitWarriorsCard} alt="Summit Warriors" className="w-full h-64 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-blue-900">Summit Warriors</h3>
+                <h3 className="text-xl font-bold mb-2 text-blue-900">Laser Tag</h3>
                 <p className="text-gray-600">Epic laser tag battles in mountain terrain</p>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Peak Bounce</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Tampoline</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img src={trampolinePeaks} alt="Peak Bounce Trampolines" className="w-full rounded-lg shadow-lg" />
@@ -140,7 +140,7 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Alpine Bowling</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Bowling</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h3 className="text-2xl font-bold mb-4 text-blue-800">Mountain Lodge Experience</h3>
@@ -179,7 +179,7 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Summit Warriors</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Laser Tag</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img src={laserTagAltitude} alt="Summit Warriors Laser Tag" className="w-full rounded-lg shadow-lg" />
@@ -218,7 +218,7 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-r from-gray-100 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Rock Face Challenge</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Ninja Challenge</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h3 className="text-2xl font-bold mb-4 text-blue-800">Conquer the Summit</h3>
