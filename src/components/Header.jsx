@@ -42,7 +42,7 @@ const Header = () => {
                   <Link to="/games/bowling" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Bowling</Link>
                   <Link to="/games/trampoline" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Tampoline</Link>
                   <Link to="/games/roll-glider" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Sky Glider</Link>
-                  <Link to="/games/slime-universe" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Crystal Caverns</Link>
+                  {/* <Link to="/games/slime-universe" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Crystal Caverns</Link> */}
                   <Link to="/games/vr-games" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Virtual Peaks</Link>
                   <Link to="/games/soft-play" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Soft Play</Link>
                   <Link to="/games/wall-climbing" className="block px-4 py-2 hover:bg-blue-800 hover:text-blue-200">Ninja</Link>
